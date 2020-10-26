@@ -1,5 +1,6 @@
-#Modified by:  !YourNameHere!
-#Email:      !YourEmailHere!
+#Modified by:  Nancy Zhang
+#Email:     nancy.zhang45@myhunter.cuny.edu
+#Date: October 26, 2020
 #A program that uses command strings to control turtle drawing
 
 
@@ -27,6 +28,14 @@ for ch in commands:
         tess.color("green")
     elif ch == 'b':          #turn blue
         tess.color("blue")
+    elif ch == 'S':
+        tess.stamp()
+    elif ch == 'D':
+        tess.dot()
+    elif ch == 'B':
+        tess.backward(50)
+    elif ch == 'p':
+        tess.color('purple')
     else:                    #for any other character, print an error message
         print("Error: do not know the command:", ch)
 
